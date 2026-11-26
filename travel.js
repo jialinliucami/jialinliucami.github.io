@@ -22,7 +22,7 @@
   const provinces = {
     AH: ['Anhui', '安徽'], BJ: ['Beijing', '北京'], CQ: ['Chongqing', '重庆'], FJ: ['Fujian', '福建'],
     GD: ['Guangdong', '广东'], GS: ['Gansu', '甘肃'], GX: ['Guangxi', '广西'], GZ: ['Guizhou', '贵州'],
-    HA: ['Henan', '河南'], HB: ['Hubei', '湖北'], HE: ['Hebei', '河北'], HI: ['Hainan', '海南'],
+    HA: ['Henan', '河南'], HB: ['Hubei', '湖北'], HI: ['Hainan', '海南'],
     HK: ['Hong Kong', '香港'], HN: ['Hunan', '湖南'], JS: ['Jiangsu', '江苏'], LN: ['Liaoning', '辽宁'],
     MO: ['Macao', '澳门'], NM: ['Inner Mongolia', '内蒙古'], NX: ['Ningxia', '宁夏'], QH: ['Qinghai', '青海'],
     SC: ['Sichuan', '四川'], SD: ['Shandong', '山东'], SH: ['Shanghai', '上海'], SN: ['Shaanxi', '陕西'],
@@ -63,7 +63,8 @@
       toggle.className = 'travel-city';
       toggle.setAttribute('aria-expanded', 'false');
       toggle.setAttribute('aria-controls', 'travel-province-list');
-      toggle.append(bilingual('29 provincial-level regions visited', '走过 29 个省级行政区'));
+      const count = Object.keys(provinces).length;
+      toggle.append(bilingual(`${count} provincial-level regions visited`, `走过 ${count} 个省级行政区`));
       const list = document.createElement('span');
       list.id = 'travel-province-list';
       list.className = 'travel-province-list';
