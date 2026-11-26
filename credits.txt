@@ -19,3 +19,7 @@ Publication figures, cropped from the original papers
 OrthoRec — Figure 2, ACM Multimedia 2026: https://doi.org/10.1145/3767308.3836499
 MoToRec — Figure 1, continuous alignment and discrete compositional codes, AAAI 2026: https://doi.org/10.1609/aaai.v40i18.38558
 SGA-GNN — Figure 1, illustration of the cold-start challenge in the introduction, ICASSP 2026: https://doi.org/10.1109/ICASSP55912.2026.11460514
+
+Travel globe
+Geographic outlines adapted from Natural Earth, 1:50m Admin 0 Countries and 1:10m Admin 1 States and Provinces (public domain).
+https://www.naturalearthdata.com/about/terms-of-use/

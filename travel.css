@@ -1,0 +1,70 @@
+#travel .travel-atlas {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(16px, 4vw, 40px);
+  margin-top: 14px;
+}
+#travel .travel-map-frame, #travel .travel-places { min-width: 0; }
+#travel .travel-map-frame { text-align: center; }
+#travel .travel-key { display:flex; flex-wrap:wrap; gap:1em; margin:0 0 12px; color:#4c6264; font-size:13px; }
+#travel .travel-key > span { display:inline-flex; align-items:center; gap:.4em; }
+#travel .travel-key > span::before { content:""; width:.7em; height:.7em; border-radius:2px; background:#68a191; }
+#travel .travel-key > span + span::before { border-radius:50%; background:#b15e3d; }
+#travel-globe {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 370px;
+  aspect-ratio: 1;
+  margin: auto;
+  touch-action: pan-y;
+  cursor: grab;
+}
+#travel-globe:active { cursor: grabbing; }
+#travel-globe:focus-visible { outline: 2px solid #1772d0; outline-offset: -2px; border-radius: 50%; }
+#travel .travel-controls, #travel .travel-region-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+#travel .travel-controls { justify-content: center; }
+#travel .travel-region-list button, #travel .travel-controls button {
+  appearance: none;
+  font: inherit;
+  color: #264f51;
+  border: 1px solid #b9ceca;
+  background: #f6faf8;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+#travel .travel-region-list button:hover, #travel .travel-controls button:hover { background: #e6f0ed; }
+#travel .travel-region-list button[aria-pressed=true] {
+  color: #fff;
+  background: #316b63;
+  border-color: #316b63;
+}
+#travel .travel-map-hint { margin: 7px auto 0; color: #52676c; font-size: 12px; line-height: 1.5; }
+#travel-selection { min-height: 3em; margin: 14px 0 0; line-height: 1.65; color: #374e56; }
+#travel .travel-city {
+  display: inline;
+  font: inherit;
+  border: 0;
+  background: none;
+  padding: .1em 0;
+  color: #176661;
+  text-decoration: underline;
+  text-decoration-color: #96b9b3;
+  text-underline-offset: .2em;
+  cursor: pointer;
+}
+#travel .travel-city[aria-pressed=true] { font-weight: bold; }
+#travel .travel-province-list { display: block; margin-top: .4em; }
+#travel .travel-province-list[hidden] { display: none; }
+#travel .travel-error { margin: 10px 0; color: #4f626b; }
+@media (max-width: 580px) {
+  #travel .travel-atlas { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  #travel-globe { max-width: 290px; }
+  #travel-selection { min-height: 0; }
+}
