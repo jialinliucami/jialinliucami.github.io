@@ -10,7 +10,7 @@
   const rad = Math.PI / 180;
   const home = [104, 30];
   const locations = {
-    MY: [['Penang', '槟城', 100.3, 5.4]],
+    MY: [['Penang', '槟城', 100.3, 5.4], ['Kota Kinabalu', '亚庇', 116.07, 5.98]],
     SG: [['Singapore', '新加坡', 103.82, 1.35]],
     TH: [['Bangkok', '曼谷', 100.50, 13.76], ['Phuket', '普吉岛', 98.34, 7.89]],
     ID: [['Bali', '巴厘岛', 115.19, -8.41]],
