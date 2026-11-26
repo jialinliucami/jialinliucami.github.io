@@ -157,6 +157,11 @@ table{border:0;border-spacing:0;border-collapse:separate;width:100%;margin:0 aut
 .section h2{display:flex;align-items:center;gap:15px;color:#263e48}
 .section h2::after{content:"";height:1px;flex:1;background:#d8e3e6}
 .section li{line-height:1.55}
+.teaching-courses{list-style:none;padding:0;margin:0}
+.teaching-courses li{display:grid;grid-template-columns:1fr auto;gap:1em;padding:.25em 0}
+.teaching-courses b{margin-right:.35em}
+.teaching-dates{color:#506573;font-variant-numeric:tabular-nums;text-align:right}
+@media(max-width:600px){.teaching-courses li{grid-template-columns:1fr;gap:0;padding:.35em 0}.teaching-dates{text-align:left}}
 .paper-img{width:35%}.paper-copy{width:75%}.one img{width:100%;height:100%;object-fit:contain}
 .paper-figure,.one{display:block}.one{max-width:100%}.paper-figure{text-align:center}.one img{display:block;background:#fff}.rate a{color:#4c6675}.rate a:hover{text-decoration:underline}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
