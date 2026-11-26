@@ -1,0 +1,21 @@
+Academic homepage template
+Jon Barron — https://jonbarron.info/
+Template source — https://github.com/jonbarron/jonbarron.github.io
+Layout and stylesheet version used — https://chenjix.github.io/
+
+Typeface
+Lato by Łukasz Dziedzic. SIL Open Font License 1.1, included in assets/fonts/OFL.txt.
+
+Institution marks (for affiliation identification)
+University of Oxford, arms drawn by Jonas Magnus Lystad, unmodified — https://commons.wikimedia.org/wiki/File:Arms_of_University_of_Oxford.svg
+
+Huawei — https://en.wikipedia.org/wiki/File:Huawei_Standard_logo.svg
+Guotai Junan Securities — bilingual logo from the back cover of the company's 2023 ESG report: https://www.hkexnews.hk/listedco/listconews/sehk/2024/0328/2024032803517_c.pdf
+Schlumberger — historical wordmark: https://commons.wikimedia.org/wiki/File:Schlumberger.svg
+
+The profile photograph was provided by the site owner.
+
+Publication figures, cropped from the original papers
+OrthoRec — Figure 2, ACM Multimedia 2026: https://doi.org/10.1145/3767308.3836499
+MoToRec — Figure 1, continuous alignment and discrete compositional codes, AAAI 2026: https://doi.org/10.1609/aaai.v40i18.38558
+SGA-GNN — Figure 1, illustration of the cold-start challenge in the introduction, ICASSP 2026: https://doi.org/10.1109/ICASSP55912.2026.11460514

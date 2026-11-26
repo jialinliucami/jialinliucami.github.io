@@ -1,0 +1,178 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(assets/fonts/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(assets/fonts/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(assets/fonts/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(assets/fonts/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(assets/fonts/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(assets/fonts/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(assets/fonts/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(assets/fonts/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+strong {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.papertitle {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.name {
+  padding-top: 20px;
+  margin: 0;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+}
+
+.one {
+  width: 240px;
+  height: 135px;
+  position: relative;
+}
+
+.two {
+  width: 240px;
+  height: 135px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+html[lang=en] .zh,html[lang=zh-CN] .en{display:none}
+body{margin:0;color:#20303c;background:#edf3f5}
+main{max-width:840px;margin:24px auto 40px;padding:10px 12px 22px;box-sizing:border-box;background:linear-gradient(135deg,#f2f7f8,#fafbf9 440px);border:1px solid #d9e4e7;border-radius:14px;box-shadow:0 8px 32px rgba(44,79,92,.055)}
+table{border:0;border-spacing:0;border-collapse:separate;width:100%;margin:0 auto}
+.page{max-width:800px}.page>tbody>tr>td{padding:0}
+.intro,.portrait-td{padding:2.5%;vertical-align:middle}
+.intro{width:63%}.portrait-td{width:40%;max-width:40%}
+.name{font-weight:normal;text-align:center}.center{text-align:center}
+.name span{color:#486674;font-weight:normal}
+.lang,summary{font:inherit;color:#1772d0;cursor:pointer}.lang{background:none;border:0;padding:0}.lang:hover,summary:hover{color:#f09228}
+.portrait-circle{border-radius:50%;aspect-ratio:1;overflow:hidden;background:#dce9ee;box-shadow:0 0 0 4px #fbfdfc,0 0 0 5px #d5e2e6}
+.portrait{display:block;width:100%;height:100%;object-fit:cover}
+.section td,.paper-img,.paper-copy{padding:20px;vertical-align:middle}
+.section h2{display:flex;align-items:center;gap:15px;color:#263e48}
+.section h2::after{content:"";height:1px;flex:1;background:#d8e3e6}
+.section li{line-height:1.55}
+.paper-img{width:35%}.paper-copy{width:75%}.one img{width:100%;height:100%;object-fit:contain}
+.paper-figure,.one{display:block}.one{max-width:100%}.paper-figure{text-align:center}.one img{display:block;background:#fff}.rate a{color:#4c6675}.rate a:hover{text-decoration:underline}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.oral{color:#c00}.institutions{width:90%}.institution-mark{width:22%;text-align:center}
+.section.institution-heading td{padding-bottom:8px}
+.institutions td{padding:8px 12px;vertical-align:middle;line-height:1.35}
+.institutions p{margin:3px 0;line-height:inherit}
+.school-logo{max-width:62%;max-height:50px;object-fit:contain;vertical-align:middle}.school-short,.period{color:#444}
+.oral a{color:inherit;font-weight:inherit}.oral a:hover{text-decoration:underline}
+.paired-seals{position:relative;display:inline-block;vertical-align:middle;width:65%;max-width:74px;aspect-ratio:1.55}
+.paired-seals .school-logo{position:absolute;width:58%;height:auto;aspect-ratio:1;max-height:none;object-fit:contain;border-radius:50%;background:#fafbf9;box-shadow:0 0 0 2px #fafbf9}
+.paired-seals .school-logo:first-child{top:0;left:0}.paired-seals .school-logo:last-child{right:0;bottom:0}
+.awards{margin:14px 0 0}.award-year{display:grid;grid-template-columns:6em 1fr;gap:10px;padding:7px 0}.award-year dt{font-weight:bold;color:#334d58;line-height:1.55;font-variant-numeric:tabular-nums}.award-year dd{margin:0}.award-year ul{margin:0;padding-left:1.15em}.year-note{font-size:12px;color:#536976}
+@media(max-width:440px){.award-year{grid-template-columns:5.3em 1fr;gap:4px}}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid #1772d0;outline-offset:2px}
+@media(max-width:600px){.one{width:100%;height:auto}.paper-img{width:30%}.paper-copy{width:70%}.paper-img,.paper-copy,.section td{padding:12px}.institutions{width:100%}.institutions td{padding:6px 7px}.name{font-size:27px}.hero tr{display:flex;align-items:center;flex-wrap:wrap}.hero .intro{width:auto;flex:1;min-width:0}.hero .portrait-td{width:28%;max-width:120px}.intro p{line-height:1.45}}
+@media(max-width:440px){.name{font-size:24px}.paper-img{width:28%;padding:7px}.paper-copy{padding:9px}.period{font-size:12px}.hero{position:relative}.hero tr{display:block}.hero .intro{display:block;width:auto;padding:14px 10px 5px}.hero .name{margin:0;padding:19px 92px 31px 0;text-align:left}.hero .portrait-td{position:absolute;top:3px;right:10px;width:75px;padding:0}.hero .intro p:first-of-type{margin-top:7px}}
+@media(max-width:850px){main{margin:0 auto;padding:8px 6px 18px;border:0;border-radius:0;box-shadow:none}}
+@media(max-width:600px){.one img{height:auto}}
